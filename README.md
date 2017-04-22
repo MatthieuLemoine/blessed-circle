@@ -16,6 +16,7 @@ You also need to have blessed installed locally as it's a peerDependency.
 ## Usage
 
 ```javascript
+const Circle = require('blessed-circle');
 // Create blessed screen
 const screen = blessed.screen();
 
