@@ -10,7 +10,6 @@ const circle = new Circle({
   left     : 'center',
   diameter : 100,
   color    : 'white',
-  screen,
 });
 
 // Append our circle to the screen.

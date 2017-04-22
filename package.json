@@ -1,6 +1,6 @@
 {
   "name": "blessed-circle",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "description": "Draw a circle in your terminal using blessed.",
   "repository": {

@@ -11,7 +11,6 @@ const disk = new Circle({
   diameter : 100,
   color    : 'white',
   fill     : true,
-  screen,
 });
 
 // Append our disk to the screen.

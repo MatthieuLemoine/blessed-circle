@@ -1,6 +1,6 @@
 # blessed-circle
 
-:art: Draw a circle in your terminal using [blessed](https://github.com/chjj/blessed).
+:art: Draw a circle or a disk in your terminal using [blessed](https://github.com/chjj/blessed).
 
 ![Circle](examples/circle.png)
 ![Disk](examples/disk.png)
@@ -24,7 +24,6 @@ const circle = new Circle({
   left     : 'center',
   diameter : 100,
   color    : 'white',
-  screen,
 });
 
 // Disk
@@ -34,13 +33,17 @@ const disk = new Circle({
   diameter : 100,
   color    : 'white',
   fill     : true,
-  screen,
 });
 ```
 
-## Notes
+## API
 
-Either ``screen`` or ``width & height`` has to be set.
+- ```new Circle(opts)```
+  - ```diameter``` : circle size
+  - ```color```    : circle color
+  - ```fill```     : flag to draw a disk instead of a circle
+  - All ```blessed.Element``` [properties](https://github.com/chjj/blessed#element-from-node)
+
 
 ## Credits
 
